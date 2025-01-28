@@ -5,3 +5,4 @@ export default function ejemplo() {
     <div>ejemplo</div>
   )
 }
+
