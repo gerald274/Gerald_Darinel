@@ -14,10 +14,7 @@ export default function Operaciones() {
 
   return (
     <div>
-      <Propiedades
-        valor={valor}
-        Incrementar={incrementarValor}decrementar={decrementarValor}
-      />
+      <Propiedades valor={valor}Incrementar={incrementarValor}decrementar={decrementarValor}/>
     </div>
   );
 }
