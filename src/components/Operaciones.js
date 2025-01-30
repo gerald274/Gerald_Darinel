@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Propiedades from "./Propiedades";
 
 export default function Operaciones() {
   const [valor, setValor] = useState(0);
@@ -14,7 +13,11 @@ export default function Operaciones() {
 
   return (
     <div>
-      <Propiedades valor={valor}Incrementar={incrementarValor}decrementar={decrementarValor}/>
+      <Propiedades 
+        valor={valor} 
+        incrementar={incrementarValor} 
+        decrementar={decrementarValor} 
+      />
     </div>
   );
 }

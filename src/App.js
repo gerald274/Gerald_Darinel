@@ -1,12 +1,9 @@
-import Operaciones from './components/Operaciones';
-
+import { Productos } from "./components/productos";
 
 function App() {
-
-
   return (
     <div className="App">
-    <Operaciones/>
+      <Productos />
     </div>
   );
 }
