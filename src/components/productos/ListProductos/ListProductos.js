@@ -1,26 +1,22 @@
 import React from 'react'
-import {Stack} from "react-bootstrap";
-import {ItemProductos} from "../itemProductos"
-import {Productos} from "../../../utils"
+import {Stack} from "react-bootstrap"
+import {ItemProductos} from "../ItemProductos";
+import { Productos } from '../../../utils';
 
-export  function Productos() {
+export function ListProducto() {
   return (
     <Stack gap={3}>
-      <div className="p-2 center" style={{textAlign:"center"}}>
-      <h1>Lista de productos</h1>
-      <div className='target'>
-        {
-          Productosroductos.map((productos)=>(
-            <ItemProductos />
-          ))
-        }
-    
-
-      </div>
-      </div>
-      
-    </Stack>
-  )
+    <div className="container p=2" style={{textAlign:"center"}}>
+        <h1> Lista  De Productos</h1>
+        <div className="target">
+            {Productos.map((Producto)=>(
+                    <ItemProductos 
+                    nombre={Producto.nombre}
+                    descripcion= {Producto.descripcion} 
+                    />
+                ))}
+    </div>
+    </div>
+  </Stack>
+  );
 }
-
-export default Productos;
