@@ -1,10 +1,10 @@
-import { ListProducto } from "./components/productos";
-
+import {BrowserRouter} from "react-router-dom"
+import { Rutas } from './routes';
 function App() {
   return (
-    <div className="App">
-      <ListProducto />
-    </div>
+      <BrowserRouter>
+       <Rutas/>
+      </BrowserRouter>
   );
 }
 

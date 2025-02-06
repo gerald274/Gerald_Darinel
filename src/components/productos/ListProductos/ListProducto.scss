@@ -1,0 +1,17 @@
+.card-it {
+    background-color: #ffffff;  
+    display: flex;             
+    align-items: center;        
+    justify-content: center;   
+  
+    &_cad {
+      display: flex;            
+      flex-direction: column;   
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-top: 10px;
+      width: 100%;
+    }
+  }
+  
