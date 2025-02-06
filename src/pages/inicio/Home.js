@@ -1,7 +1,6 @@
 import React from 'react'
 
-export default function 
-() {
+export function Home() {
   return (
     <div>
          <h1>Bienvenido a mi aplicacion WEb</h1>

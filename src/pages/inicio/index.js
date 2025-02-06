@@ -1,1 +1,1 @@
-export * from "./inicio/Home"
+export * from "./Home"
